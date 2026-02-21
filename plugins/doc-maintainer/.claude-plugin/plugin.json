@@ -1,0 +1,6 @@
+{
+  "name": "doc-maintainer",
+  "version": "0.1.0",
+  "description": "Paired agents that keep project documentation lean and accurate",
+  "keywords": ["documentation", "claude-md", "maintenance", "review"]
+}

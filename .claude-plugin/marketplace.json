@@ -1,0 +1,13 @@
+{
+  "name": "tagteam",
+  "description": "A curated marketplace of Claude Code plugins — your skills + my skills, tag team.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "doc-maintainer",
+      "description": "Paired agents that keep project documentation lean and accurate",
+      "source": "plugins/doc-maintainer",
+      "keywords": ["documentation", "claude-md", "maintenance", "review"]
+    }
+  ]
+}
