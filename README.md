@@ -1,6 +1,30 @@
 # TagTeam
 
-> "Your skills... plus my skills... in the ring... tag team." — Nacho Libre
+```
+                         _______________
+                        |               |
+                        |   TAG  TEAM   |
+                        |_______________|
+                               |||
+                               |||
+       ,_                      |||                      _,
+      {  `.   ___              |||              ___   .'  }
+       \   \/    \     YOUR SKILLS + MY SKILLS /    \/   /
+        \  |  o  |        IN THE RING         |  o  |  /
+         \ |  -  |    _______ _____ _______   |  -  | /
+          `\  _  /   |_   _  / _ \ | ___  |   \  _  /'
+            |/ \|      | |  / /_\ \| |  \ |    |/ \|
+           /|   |\     | | / _____ \ |__/ |   /|   |\
+          / |___| \    |_|/_/     \_\______|  / |___| \
+         |  (   )  |                         |  (   )  |
+         |  |\ /|  |    ~ NACHO  LIBRE ~     |  |\ /|  |
+        /   | V |   \                       /   | V |   \
+       /    |   |    \                     /    |   |    \
+      '     '   '     '                   '     '   '     '
+      PLUGIN A          <<<  RING  >>>          PLUGIN B
+```
+
+> *"Your skills... plus my skills... in the ring... tag team."* — Nacho Libre
 
 A curated marketplace of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugins. Browse, install, and share skills and agents that make Claude Code better at real work.
 
