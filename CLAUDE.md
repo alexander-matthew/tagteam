@@ -27,3 +27,22 @@ plugins/<name>/commands/          # Slash commands (if applicable)
 - Agent names: lowercase, hyphenated, matching the filename without `.md`
 - Descriptions: concise, start with what it does (not "This plugin...")
 - Keywords: lowercase, relevant to discovery
+
+## Agent/Skill Parity
+
+For each plugin, agent and skill files are mirrored by basename:
+
+- `plugins/<plugin>/agents/<name>.md`
+- `plugins/<plugin>/skills/<name>.md`
+
+Run parity check:
+
+```bash
+bash scripts/check_agent_skill_sync.sh
+```
+
+Install local hook:
+
+```bash
+bash scripts/install_git_hooks.sh
+```

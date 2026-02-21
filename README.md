@@ -1,27 +1,22 @@
 # TagTeam
 
 ```
-                         _______________
-                        |               |
-                        |   TAG  TEAM   |
-                        |_______________|
-                               |||
-                               |||
-       ,_                      |||                      _,
-      {  `.   ___              |||              ___   .'  }
-       \   \/    \     YOUR SKILLS + MY SKILLS /    \/   /
-        \  |  o  |        IN THE RING         |  o  |  /
-         \ |  -  |    _______ _____ _______   |  -  | /
-          `\  _  /   |_   _  / _ \ | ___  |   \  _  /'
-            |/ \|      | |  / /_\ \| |  \ |    |/ \|
-           /|   |\     | | / _____ \ |__/ |   /|   |\
-          / |___| \    |_|/_/     \_\______|  / |___| \
-         |  (   )  |                         |  (   )  |
-         |  |\ /|  |    ~ NACHO  LIBRE ~     |  |\ /|  |
-        /   | V |   \                       /   | V |   \
-       /    |   |    \                     /    |   |    \
-      '     '   '     '                   '     '   '     '
-      PLUGIN A          <<<  RING  >>>          PLUGIN B
+  ╔════════════════════════════════════════════╗
+  ║                                            ║
+  ║   ████████  █████   ██████  ████████       ║
+  ║      ██    ██   ██ ██          ██          ║
+  ║      ██    ███████ ██   ███    ██          ║
+  ║      ██    ██   ██ ██    ██    ██          ║
+  ║      ██    ██   ██  ██████     ██          ║
+  ║                                            ║
+  ║   ████████ ████████  █████  ███    ███     ║
+  ║      ██    ██       ██   ██ ████  ████     ║
+  ║      ██    ██████   ███████ ██ ████ ██     ║
+  ║      ██    ██       ██   ██ ██  ██  ██     ║
+  ║      ██    ████████ ██   ██ ██      ██     ║
+  ║                                            ║
+  ║    your skills + my skills ... tag team     ║
+  ╚════════════════════════════════════════════╝
 ```
 
 > *"Your skills... plus my skills... in the ring... tag team."* — Nacho Libre
@@ -75,3 +70,24 @@ Want to add a plugin to the marketplace? PRs welcome.
 ## License
 
 MIT
+
+## Agent/Skill Sync Guardrails
+
+TagTeam enforces parity between plugin agents and skills by filename:
+
+- `plugins/<plugin>/agents/<name>.md`
+- `plugins/<plugin>/skills/<name>.md`
+
+Run manually:
+
+```bash
+bash scripts/check_agent_skill_sync.sh
+```
+
+Install local pre-commit hook (one-time per clone):
+
+```bash
+bash scripts/install_git_hooks.sh
+```
+
+CI also enforces parity on push and pull requests via `.github/workflows/agent-skill-sync.yml`.
